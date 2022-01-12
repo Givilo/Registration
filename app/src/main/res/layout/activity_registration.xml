@@ -18,35 +18,35 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <EditText
-            android:id="@+id/editTextEmail"
+            android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="E-mail"
+            android:hint="Enter Your E-mail"
             android:inputType="textEmailAddress" />
 
         <EditText
-            android:id="@+id/editTextPassword"
+            android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Password"
+            android:hint="Enter Your Password"
             android:inputType="textPassword" />
 
         <EditText
-            android:id="@+id/editTextConfirmPassword"
+            android:id="@+id/confirmPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Confirm Password"
+            android:hint="Repeat Your Password"
             android:inputType="textPassword" />
 
         <Button
-            android:id="@+id/registerButton"
+            android:id="@+id/buttonRegistration"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:text="Register" />
+            android:text="Registration" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
 
